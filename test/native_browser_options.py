@@ -35,7 +35,7 @@ def test_native_options():
         # Alternative JavaScript using browser history
         page.evaluate("history.go(0)")
         page.wait_for_timeout(5000)
-        
+
         browser.close()
 
 def test_renavigate_to_current_url():
