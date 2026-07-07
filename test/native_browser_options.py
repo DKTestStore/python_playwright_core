@@ -89,3 +89,4 @@ def test_refesh():
 
 # Alternative JavaScript using href reassignment
 #page.evaluate("location.href = location.href")
+
